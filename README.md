@@ -1,18 +1,66 @@
-# Leave_Tracker
-Leave Tracker is an website built using Laravel, and mySQL database, to  track the employees' leaves.  Leave Tracker is a simple web application developed using the Laravel framework for tracking employee leaves. The application allows employees to log in, submit leave requests, view their leave history, and for administrators to manage leave requests.
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-![verification mail](https://github.com/nishat33/Leave_Tracker/assets/66133166/9f7526d2-a3d6-4e8b-a9b9-09cd900a7403)
-![updated_rejected_list_with_john_kabir](https://github.com/nishat33/Leave_Tracker/assets/66133166/44ac8f76-38a6-4004-816d-2e446ea298bb)
-![rejected_mail_status](https://github.com/nishat33/Leave_Tracker/assets/66133166/81885842-1a40-452b-a857-5b52248a7224)
-![registration page](https://github.com/nishat33/Leave_Tracker/assets/66133166/53dcc038-fc69-4885-8b03-f56bb9d7432c)
-![pre-verification](https://github.com/nishat33/Leave_Tracker/assets/66133166/dd9ef59b-b504-49ee-a3ed-c6da5b3dc62e)
-![pending_request](https://github.com/nishat33/Leave_Tracker/assets/66133166/73d45d5c-48f4-4b04-ad34-d1c977fa0e4c)
-![login_as_admin](https://github.com/nishat33/Leave_Tracker/assets/66133166/3fc3eca0-34ca-4286-9858-ebcf5a916cce)
-![login](https://github.com/nishat33/Leave_Tracker/assets/66133166/64637e15-63a0-4669-8d74-486b27ce0246)
-![history](https://github.com/nishat33/Leave_Tracker/assets/66133166/e4fcb03e-3d84-4e87-9e6e-59272da599ff)
-![Error msg](https://github.com/nishat33/Leave_Tracker/assets/66133166/b606daaf-0454-44db-93eb-8e825796987c)
-![employee_list_with_admin_privileges](https://github.com/nishat33/Leave_Tracker/assets/66133166/52dbd924-4960-40f4-9828-f61ee7d000af)
-![application_for_leave](https://github.com/nishat33/Leave_Tracker/assets/66133166/73c259f2-9a6a-4877-aa57-44c14e98cfe3)
-![admin_dashboard](https://github.com/nishat33/Leave_Tracker/assets/66133166/bc4b0b3b-2291-4333-83a3-be6c501e27b6)
-![accepted_request_list](https://github.com/nishat33/Leave_Tracker/assets/66133166/ec0d3a64-b137-4c4e-8b3f-471a5726cdab)
+## About Laravel
+
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+## Learning Laravel
+
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+## Laravel Sponsors
+
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+
+### Premium Partners
+
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[WebReinvent](https://webreinvent.com/)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Jump24](https://jump24.co.uk)**
+- **[Redberry](https://redberry.international/laravel/)**
+- **[Active Logic](https://activelogic.com)**
+- **[byte5](https://byte5.de)**
+- **[OP.GG](https://op.gg)**
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
